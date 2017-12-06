@@ -11,7 +11,7 @@ use threads::shared;
 use Config::Tiny;
 use LWP::UserAgent;
 use HTTP::Status qw/is_client_error is_server_error/;
-use JSON;
+use JSON::PP;
 use HTTP::Date;
 use Storable qw/freeze thaw/;
 use URI;
